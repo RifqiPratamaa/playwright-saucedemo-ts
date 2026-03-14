@@ -108,6 +108,10 @@ npx playwright test --ui
 
 ```sh
 npx playwright test --project=api
+
+or
+
+npx playwright test --grep "@api"
 ```
 
 ---
