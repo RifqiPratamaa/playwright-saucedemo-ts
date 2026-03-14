@@ -13,7 +13,7 @@ test.use({
     },
 });
 
-test.describe('API Testing Reqres.in', () => {
+test.describe('@api API Testing Reqres.in', () => {
 
     test('GET /users?page=2 – List Users', async ({ request }) => {
         const response = await request.get('/api/users', {

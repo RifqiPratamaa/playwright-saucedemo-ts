@@ -104,6 +104,12 @@ npx playwright test tests/specs/transaction/transaction.spec.ts
 npx playwright test --ui
 ```
 
+### Run API tests
+
+```sh
+npx playwright test --project=api
+```
+
 ---
 
 ## Test Scenarios
